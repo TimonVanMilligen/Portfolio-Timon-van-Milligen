@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="contact">
+    <section class="hero-top">
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="games.html">Games</a>
+                <a class="active" href="contact.html">Contact</a>
+            </nav>
+            <h1>Contact</h1>
+    </section>
+    </header>
+    <main>
+        <section class="about">
+            <h2>About me</h2>
+            <section class="contact-list">
+                <a class="about" href="https://www.instagram.com" target="_blank"> instagram</a>
+                <a class="about" href="https://discord.com/users/378103417307922433" target="_blank"> Discord</a>
+                <a class="about" href="mailto:tilontnt@outlook.com" target="_blank"> E-mail </a>
+            </section>
+        </section>
+        <form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+            <div class="form-element">
+                <label for="name">Voor en Achternaam</label>
+                <input id="name" type="text" name="name" placeholder="Vul hier uw naam in">
+            </div>
+            <div class="form-element">
+                <label for="zipcode">Postcode</label>
+                <input id="zipcode" type="zipcode" name="zipcode" placeholder="Vul hier uw postcode in">
+            </div>
+            <div class="form-element">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="Vul hier uw e-mail in">
+            </div>
+
+            <div class="form-element">
+                <label for="time">Gewenst tijdstip</label>
+                <select id="time" name="time">
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="question">Uw vraag/klacht</label>
+                <input id="question" type="question" name="question" placeholder="Vul hier uw vraag/klacht in">
+            </div>
+            <div class="form-element">
+                <label for="terms and agreements">Algemene voorwaarden</label>
+                <input type="checkbox" name="terms and conditions">
+            </div>
+            <div class="form-element">
+                <button type="submit">Verzend</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <span>
+            &copy; Timon van Milligen 2022
+        </span>
+    </footer>
+</body>
+
+</html>
